@@ -104,6 +104,7 @@ footer ul {
 }
 .col {
   width: 45%;
+  padding: 1em;
 }
 .col {
   float: left;
@@ -136,14 +137,13 @@ h1 {
 }
 h1, .top-nav {
   display: inline-block;
-  clear:both;
-}
+  }
 .intro {
   clear: both;
 }
 .col {
     width: 33%;
-  }
+    }
   .col {
     float: right;
   }
