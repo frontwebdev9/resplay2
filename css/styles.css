@@ -1,0 +1,163 @@
+        /*Universal style*/
+* {
+  box-sizing: border-box;
+  }
+        /* ----------- Type style --------- */
+
+body {
+  font-family: 'Open Sans', serif;
+  font-weight: 600;
+  letter-spacing: .05em;
+  height: 100%;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 1024px;
+  text-align: center;
+}
+header {
+  background: #edfcf1;
+}
+footer p{
+  clear: both;
+  text-align: center;
+  font-size: .5em;
+}
+/* ----------- class style --------- */
+.container {
+  margin:0 auto;
+  width: 90%;
+}
+.top-nav {
+  margin:0 auto;
+}
+ul .top-nav {
+  margin:0 auto;
+  padding-left: 0;
+}
+.top-nav a {
+  background: #fff;
+  display: block;
+  padding-right: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.top-nav li {
+  list-style: none;
+  margin: 5px 0;
+}
+.profile-img {
+  width: 70%;
+  max-width: 100%;
+  padding: 20px 0;
+}
+.project-pic {
+  max-width: 100%;
+}
+.intro {
+  padding: 20px 0;
+}
+.contact {
+  background: #edfcf1;
+}
+
+.footer-nav li {
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+}
+.top {
+  text-align: right;
+  }
+.full {
+  visibility: hidden;
+}
+
+    /* ----------- float style --------- */
+footer h3 {
+  float:left;
+}
+footer ul {
+  float:right;
+}
+
+.clearfix::after {
+  content:"";
+  display: table;
+  clear: both;
+}
+/* ----------- Media Query --------- */
+
+@media (min-width: 768px) {
+.top-nav li {
+  display: inline-block;
+}
+.top-nav a {
+  padding: 0 20px;
+  background: none;
+}
+.intro  {
+  margin: 0 auto;
+}
+.intro p {
+  width: 60%;
+  padding: 0 20px;
+}
+.profile-img {
+  float:right;
+  width: 40%;
+  padding: 10px;
+}
+.col {
+  width: 45%;
+}
+.col {
+  float: left;
+}
+.col+.col {
+  padding: 1em;
+}
+.clearfix::after {
+  content="";
+  display:table;
+  clear:both;
+}
+.full {
+  visibility: visible;
+}
+.top {
+  visibility: hidden;
+}
+.footer-nav a {
+  text-transform: uppercase;
+}
+}
+
+@media (min-width: 1024px) {
+h1 {
+  float:left;
+}
+.top-nav {
+  float:right;
+}
+h1, .top-nav {
+  display: inline-block;
+  clear:both;
+}
+.intro {
+  clear: both;
+}
+.col {
+    width: 33%;
+  }
+  .col {
+    float: right;
+  }
+  .col+.col {
+    padding: 1em;
+  }
+.clearfix::after {
+    content="";
+    display:table;
+    clear:both;
+  }
+}
