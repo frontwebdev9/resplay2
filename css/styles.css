@@ -20,7 +20,10 @@ header {
   padding-top: 1em;
 }
 h1 {
-  margin:5px 0;
+  margin:16px 0;
+}
+h1 a {
+  text-decoration: none;
 }
 footer p{
   clear: both;
