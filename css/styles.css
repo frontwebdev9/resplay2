@@ -22,22 +22,17 @@ footer p{
   text-align: center;
   font-size: .5em;
 }
+span {
+  font-family: "rock salt";
+}
 /* ----------- class style --------- */
 .container {
   margin:0 auto;
   width: 90%;
 }
-.top-nav {
-  margin:0 auto;
-}
-ul .top-nav {
-  margin:0 auto;
-  padding-left: 0;
-}
 .top-nav a {
   background: #fff;
   display: block;
-  padding-right: 40px;
   text-decoration: none;
   text-transform: uppercase;
 }
