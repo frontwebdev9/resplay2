@@ -8,6 +8,7 @@ body {
   font-family: 'Open Sans', serif;
   font-weight: 600;
   letter-spacing: .05em;
+  background:#e8ffbd;
   height: 100%;
   line-height: 1.5;
   margin: 0 auto;
@@ -15,15 +16,22 @@ body {
   text-align: center;
 }
 header {
-  background: #edfcf1;
   margin-top: 1em;
   padding-top: 1em;
 }
 h1 {
+  color: darkgreen;
+  font-size: 1.7em;
   margin:16px 0;
+
 }
 h1 a {
   text-decoration: none;
+}
+p {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 2em;
 }
 footer p{
   clear: both;
@@ -32,12 +40,24 @@ footer p{
 }
 span {
   font-family: "rock salt";
+  font-size: 2em;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: hotpink;
 }
 /* ----------- class style --------- */
 .container {
   margin:0 auto;
   width: 90%;
+  text-align: center;
 }
+.background {
+  background: #fff;
+}
+
 .top-nav a {
   background: #fff;
   display: block;
@@ -49,45 +69,65 @@ span {
   margin: 5px 0;
 }
 .profile-img {
-  width: 70%;
+  width: 60%;
   max-width: 100%;
-  padding: 20px 0;
+  border-radius: 10px;
+  box-shadow: 10px 10px 8px #888888;
+  margin-bottom: 10px;
 }
 .project-pic {
+  width: 80%;
   max-width: 100%;
+  box-shadow: 10px 10px 8px #888888;
 }
 .intro {
   padding: 20px 0;
 }
-.contact {
-  background: #edfcf1;
-}
-
 .footer-nav li {
   text-decoration: none;
   list-style: none;
   display: inline-block;
 }
-.top {
+.top a {
   text-align: right;
+  text-decoration: none;
   }
 .full {
   visibility: hidden;
 }
 
     /* ----------- float style --------- */
+footer {
+  border-top: dashed grey 1px;
+}
 footer h3 {
   float:left;
+  width: 49%;
 }
 footer ul {
   float:right;
+  width: 49%;
 }
-
 .clearfix::after {
   content:"";
-  display: table;
+  display: inline-flex;
   clear: both;
 }
+.difficulty,
+.frustration {
+  margin-bottom: 40px;
+  box-shadow: 4px -4px 15px 0px #FF1F1F,
+              12px -11px 7px 0px #FF9376,
+              20px -5px 7px 0px #FFE264,
+              20px 6px 7px 0px #F6FF33,
+              13px 12px 17px 0px #FF9527,
+              2px 17px 17px 0px #FF0000,
+              -9px 21px 18px 0px #FFF212,
+              -9px 6px 11px 0px #FF0808,
+              -11px -9px 11px 0px #FFFA17,
+              -11px -9px 11px 0px #FFFA17,
+              5px 5px 15px 5px rgba(255,145,80,0);
+      }
 /* ----------- Media Query --------- */
 
 @media (min-width: 768px) {
@@ -103,15 +143,16 @@ footer ul {
 }
 .intro p {
   width: 60%;
-  padding: 0 20px;
+  padding: 0 30px 0 0;
 }
 .profile-img {
   float:right;
   width: 40%;
   padding: 10px;
+  margin-left: 30px;
 }
 .col {
-  width: 45%;
+  width: 50%;
   padding: 1em;
 }
 .col {
@@ -121,7 +162,7 @@ footer ul {
   padding: 1em;
 }
 .clearfix::after {
-  content="";
+  content=" ";
   display:table;
   clear:both;
 }
@@ -131,9 +172,39 @@ footer ul {
 .top {
   visibility: hidden;
 }
+footer h3 {
+  width: 30%;
+}
+.footer-nav {
+  width: 70%;
+}
 .footer-nav a {
   text-transform: uppercase;
+  margin-right: 5px;
 }
+.contact {
+  padding: 0 5em;
+}
+.difficulty {
+  float:right;
+}
+span {
+  float:left;
+  padding: 3.1em;
+  width: 70%;
+}
+.frustration {
+  float: right;
+}
+.difficulty,
+.frustration {
+  margin-right: 50px;
+}
+.skills p {
+  clear: both;
+}
+
+
 }
 
 @media (min-width: 1024px) {
