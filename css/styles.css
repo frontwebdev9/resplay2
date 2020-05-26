@@ -162,7 +162,7 @@ footer ul {
   padding: 1em;
 }
 .clearfix::after {
-  content=" ";
+  content="";
   display:table;
   clear:both;
 }
