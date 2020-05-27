@@ -8,7 +8,7 @@ body {
   font-family: 'Open Sans', serif;
   font-weight: 600;
   letter-spacing: .05em;
-  background:#e8ffbd;
+  background:#f5ffe3;
   height: 100%;
   line-height: 1.5;
   margin: 0 auto;
@@ -81,8 +81,15 @@ a:hover {
   box-shadow: 10px 10px 8px #888888;
 }
 .intro {
-  padding: 20px 0;
+  padding: 20px 0 0 0;
 }
+#portfolio {
+  padding-top: 30px;
+}
+#skills {
+  padding-top: 30px;
+}
+
 .footer-nav li {
   text-decoration: none;
   list-style: none;
@@ -162,7 +169,7 @@ footer ul {
   padding: 1em;
 }
 .clearfix::after {
-  content="";
+
   display:table;
   clear:both;
 }
@@ -204,7 +211,6 @@ span {
   clear: both;
 }
 
-
 }
 
 @media (min-width: 1024px) {
@@ -230,7 +236,6 @@ h1, .top-nav {
     padding: 1em;
   }
 .clearfix::after {
-    content="";
     display:table;
     clear:both;
   }
