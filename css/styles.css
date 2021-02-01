@@ -35,15 +35,7 @@ header {
   padding-top: 1em;
   background-color: rgb(196, 252, 252);
 }
-nav {
-  overflow: hidden;
-  background: rgb(197, 245, 197);
-  position: fixed;
-  top: 0;
-  margin: 5px;
-  display:  inline-block;
-  width: 100%;
-}
+
 footer p{
   clear: both;
   text-align: center;
@@ -147,13 +139,15 @@ footer ul {
 /* ----------- Media Query --------- */
 
 @media (min-width: 768px) {
-  /* nav {
+  nav {
     overflow: hidden;
-    background: limegreen;
+    background: rgb(197, 245, 197);
     position: fixed;
     top: 0;
-    margin-top: 5px;
-  } */
+    margin: 5px;
+    display:  inline-block;
+    width: 100%;
+  }
 .top-nav li {
   display: inline-block;
 }
