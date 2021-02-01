@@ -10,8 +10,8 @@ body {
   letter-spacing: .05em;
   background:#f5ffe3;
   height: 100%;
-  line-height: 1.5;
-  margin: 0 10px;
+  line-height: 1.5; 
+  margin: 0 auto;
   text-align: center;
   width: 95%;
 }
@@ -36,11 +36,6 @@ header {
   background-color: rgb(196, 252, 252);
 }
 
-footer p{
-  clear: both;
-  text-align: center;
-  font-size: .5em;
-}
 span {
   font-family: "rock salt";
   font-size: 2em;
@@ -54,11 +49,14 @@ a:hover {
 /* ----------- class style --------- */
 .container {
   margin:0 auto;
-  width: 90%;
+  width: 97%;
   text-align: center;
   background-color: rgb(182, 205, 206);
 }
-
+ul{
+  padding: 10px;
+  /* width: 95%; */
+}
 .top-nav a {
   background: #fff;
   display: block;
@@ -91,11 +89,7 @@ a:hover {
   padding-top: 30px;
 }
 
-.footer-nav li {
-  text-decoration: none;
-  list-style: none;
-  display: inline-block;
-}
+
 .top a {
   text-align: right;
   text-decoration: none;
@@ -104,9 +98,22 @@ a:hover {
   visibility: hidden;
 }
 
+.footer-nav li {
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+}
     /* ----------- float style --------- */
 footer {
   border-top: dashed grey 1px;
+  line-height: normal;
+  height: 4em;
+}
+footer p{
+  clear: both;
+  text-align: center;
+  font-size: .7em;
+  
 }
 footer h3 {
   float:left;
@@ -116,6 +123,7 @@ footer ul {
   float:right;
   width: 49%;
 }
+
 .clearfix::after {
   content:"";
   display: inline-flex;
@@ -222,8 +230,6 @@ span {
   clear: both;
 }
 
-}
-
 @media (min-width: 1024px) {
 h1 {
   float:left;
@@ -250,4 +256,5 @@ h1, .top-nav {
     display:table;
     clear:both;
   }
+}
 }
