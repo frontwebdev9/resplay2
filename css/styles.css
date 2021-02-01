@@ -148,11 +148,11 @@ footer ul {
 
 @media (min-width: 768px) {
   nav {
-    overflow: hidden;
+    /* overflow: hidden; */
     background: rgb(197, 245, 197);
-    position: fixed;
+    /* position: fixed; */
     top: 0;
-    margin: 5px;
+    /* margin: 5px; */
     display:  inline-block;
     width: 100%;
   }
